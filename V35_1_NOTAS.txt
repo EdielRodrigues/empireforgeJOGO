@@ -1,0 +1,20 @@
+Empire Forge V35.1
+
+LINK DO BACKEND JÁ CONFIGURADO:
+https://empireforge-pwa-v35-2.onrender.com
+
+PACOTES OFICIAIS REVISADOS:
+500 gemas  = R$ 7,99  = 799 centavos
+1000 gemas = R$ 16,99 = 1699 centavos
+1500 gemas = R$ 33,99 = 3399 centavos
+2000 gemas = R$ 66,99 = 6699 centavos
+
+CORREÇÕES:
+- config.js já aponta para o Render.
+- Backend valida o valor pago antes de creditar gemas.
+- Crédito é idempotente: cada pedido só credita uma vez.
+- Endpoint /api/wallet para atualizar o saldo oficial.
+- Frontend relê saldo do servidor após pagamento aprovado.
+- Polling do Pix a cada 2,5 segundos.
+- Endpoint /api/store/packs para conferir os 4 pacotes.
+- /health agora mostra versão 35.1 e os pacotes.

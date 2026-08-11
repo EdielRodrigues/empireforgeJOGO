@@ -1,0 +1,17 @@
+{
+  "name": "Empire Forge V35.1",
+  "short_name": "Empire Forge",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#0d1722",
+  "theme_color": "#172536",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
