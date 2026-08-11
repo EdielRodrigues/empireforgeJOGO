@@ -1,0 +1,20 @@
+Empire Forge SITE V35.3
+
+CORREÇÕES:
+- Selo visual corrigido de V33 para V35.3.
+- Cache antigo removido; novo cache empire-forge-v35-3.
+- config.js já aponta para https://empireforge-pwa-v35-2.onrender.com
+- Saldo de gemas sempre relido do PostgreSQL ao:
+  * entrar no jogo
+  * abrir Loja Shop
+  * voltar do app do banco
+  * voltar para a aba
+  * reabrir a página
+- Pix pendente é salvo no localStorage pelo paymentId.
+- Ao voltar do banco, o jogo consulta o pagamento automaticamente.
+- Se approved, saldo oficial é aplicado imediatamente.
+- API nunca é armazenada no cache do PWA.
+- Vila/layout não foram alterados.
+
+IMPORTANTE:
+Suba TODOS os arquivos desta V35.3, inclusive sw.js e config.js.
