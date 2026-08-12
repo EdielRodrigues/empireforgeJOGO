@@ -1,0 +1,8 @@
+V35.6
+- Saldo de gemas agora é autoritativo no PostgreSQL.
+- Gastos de gemas chamam /api/wallet/spend antes de concluir a ação.
+- Reiniciar o app não devolve gemas já gastas.
+- Treino, Laboratório e conclusão de construções usam desconto real no servidor.
+- Vila recebeu acabamento visual mais amplo/forte sem substituir o jogo por uma imagem.
+- Cache PWA atualizado.
+IMPORTANTE: esta versão do site requer BACKEND V35.3.
