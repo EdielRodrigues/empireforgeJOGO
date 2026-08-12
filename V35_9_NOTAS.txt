@@ -1,0 +1,8 @@
+V35.9
+- Bolsa de Ouro: 10.000 por R$ 2,99.
+- Bolsa de Elixir: 10.000 por R$ 3,99.
+- Pix automático completo das duas bolsas.
+- Após aprovação, PostgreSQL recebe o recurso e o jogo atualiza o saldo.
+- Retorno do app do banco consulta pagamento pendente automaticamente.
+- Mantém os seis pacotes de gemas.
+Requer Backend V35.5.
