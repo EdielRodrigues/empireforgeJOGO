@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#172536">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-<title>Empire Forge V37.30</title>
+<title>Empire Forge V37.31</title>
 <style>
 :root{--bg:#0c1621;--panel:#192838;--panel2:#223448;--line:#ffffff16;--text:#f8fbff;--muted:#aab8c7;--green:#36b869;--red:#d64d4d;--gold:#ffd75f;--elixir:#d884ff;--gem:#78e4ff;--grass1:#6f984d;--grass2:#5d8340}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{margin:0;min-height:100%;background:linear-gradient(#0b131d,#102131);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}body{padding-bottom:max(80px,env(safe-area-inset-bottom))}button{font:inherit}.topbar{position:sticky;top:0;z-index:20;background:#0f1c29ed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:max(8px,env(safe-area-inset-top)) 10px 8px;box-shadow:0 8px 24px #0005}.toprow{display:flex;align-items:center;gap:8px}.profile{display:flex;align-items:center;gap:8px;margin-right:auto;min-width:0}.level{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(#53c77b,#218448);border:3px solid #d9ffe7;font-weight:1000;box-shadow:0 3px 12px #0007}.ptext{min-width:0}.ptext b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.xp{width:115px;max-width:32vw;height:7px;background:#0007;border-radius:99px;margin-top:4px;overflow:hidden}.xp i{display:block;height:100%;background:#69dbff}.resources{display:flex;gap:6px}.res{background:#ffffff0c;border:1px solid #ffffff12;border-radius:14px;padding:7px 9px;font-weight:900;white-space:nowrap}.res.gold{color:var(--gold)}.res.elixir{color:var(--elixir)}.subtop{display:flex;gap:8px;margin-top:7px;font-size:12px;color:#d5deea}.pill{background:#ffffff0b;border-radius:999px;padding:5px 9px}.page{max-width:1050px;margin:auto;padding:10px}.hero{display:flex;align-items:end;justify-content:space-between;gap:10px;margin-bottom:8px}.hero h1{font-size:24px;margin:0}.hero p{margin:2px 0 0;color:var(--muted);font-size:13px}.villageShell{position:relative;border-radius:26px;padding:10px;background:linear-gradient(145deg,#3e602f,#294a26);box-shadow:0 16px 40px #0009,inset 0 0 0 2px #ffffff10}.grid{position:relative;display:grid;grid-template-columns:repeat(9,1fr);gap:3px;padding:5px;aspect-ratio:1/1;background:radial-gradient(circle at 50% 45%,#779f50,#5f833f 65%,#466a36);border-radius:19px;overflow:hidden;touch-action:manipulation}.cell{min-width:0;border-radius:5px;background:linear-gradient(135deg,#7ca356bb,#628b44aa);border:1px solid #ffffff09}.cell.edit{outline:1px dashed #d5ffac55}.building{position:absolute;border-radius:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:950;font-size:10px;border:2px solid #ffffff45;box-shadow:0 5px 12px #0008;user-select:none;overflow:hidden;transition:.16s transform,.16s filter}.building:active{transform:scale(.97)}.building.selected{box-shadow:0 0 0 4px #fff8,0 0 25px #baff8eaa;filter:brightness(1.12)}.building.buildingNow{filter:saturate(.45)}.building .icon{font-size:24px;line-height:1}.building .lvl{font-size:9px;background:#06111ccf;border-radius:999px;padding:1px 6px;margin-top:2px}.building .timer{position:absolute;left:4px;right:4px;bottom:4px;height:5px;background:#0009;border-radius:99px;overflow:hidden}.building .timer i{display:block;height:100%;background:#7eff98}.town{background:linear-gradient(#9db0c3,#53667b)}.goldmine{background:linear-gradient(#d9ad31,#82620d)}.elixirmine{background:linear-gradient(#c45ee8,#713186)}.cannon{background:linear-gradient(#766352,#362b25)}.tower{background:linear-gradient(#aa7e50,#5a402b)}.barracks{background:linear-gradient(#a44f4b,#572b2a)}.storage{background:linear-gradient(#b68734,#684a15)}.elixirstorage{background:linear-gradient(#bc69d8,#653174)}.wall{background:linear-gradient(#8d8d8d,#555)}.camp{background:linear-gradient(#5487a0,#2e5267)}.controls{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:9px}.btn{border:1px solid #ffffff13;border-radius:15px;padding:12px 8px;background:linear-gradient(#30465d,#223448);color:white;font-weight:900;box-shadow:0 4px 10px #0005}.btn:active{transform:translateY(1px)}.btn.green{background:linear-gradient(#3bc56e,#23894b)}.btn.red{background:linear-gradient(#e35a5a,#a82f35)}.btn.orange{background:linear-gradient(#d69b35,#9b6514)}.btn:disabled{opacity:.45}.layout{display:grid;gap:10px;margin-top:10px}.panel{background:#ffffff0a;border:1px solid var(--line);border-radius:21px;padding:12px;box-shadow:0 8px 24px #0003}.panel h2{font-size:17px;margin:0 0 10px}.tabs{display:flex;gap:6px;overflow:auto;padding-bottom:6px}.tab{border:0;border-radius:999px;padding:8px 11px;background:#ffffff0c;color:#c8d4df;font-weight:800;white-space:nowrap}.tab.active{background:#3b526a;color:white}.shop{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.shopItem{min-height:64px;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:8px}.shopItem span b{display:block}.shopItem small{display:block;color:#b6c2ce;margin-top:2px}.queue{display:grid;gap:7px}.queueItem{display:flex;align-items:center;gap:8px;background:#ffffff08;border-radius:13px;padding:9px}.queueItem .qicon{font-size:25px}.queueItem .grow{flex:1}.progress{height:6px;background:#0007;border-radius:99px;overflow:hidden;margin-top:4px}.progress i{display:block;height:100%;background:#72d6ff}.log{min-height:48px;color:#d5dee7;font-size:13px;line-height:1.35}.bottomNav{position:fixed;z-index:30;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));max-width:640px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:5px;background:#0c1724ee;backdrop-filter:blur(12px);border:1px solid #ffffff16;border-radius:20px;padding:6px;box-shadow:0 10px 30px #000b}.navbtn{border:0;background:transparent;color:#aab7c4;border-radius:14px;padding:7px 2px;font-size:11px;font-weight:850}.navbtn b{font-size:20px;display:block}.navbtn.active{background:#ffffff12;color:white}.modal{position:fixed;inset:0;z-index:50;background:#000c;display:none;align-items:flex-end;justify-content:center;padding:16px}.modal.show{display:flex}.card{width:min(520px,100%);max-height:90vh;overflow:auto;background:linear-gradient(#213448,#172737);border:1px solid #ffffff20;border-radius:25px;padding:17px;box-shadow:0 24px 60px #000}.card h3{margin:0 0 6px}.muted{color:var(--muted)}.battleStats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:10px 0}.stat{background:#ffffff0a;border-radius:13px;padding:9px;text-align:center}.battlefield{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;background:#486b36;padding:7px;border-radius:18px;aspect-ratio:1/1}.battlecell{position:relative;background:#6d9550;border-radius:6px;display:grid;place-items:center;font-size:23px;border:1px solid #ffffff09}.enemyB{background:#6f6a48}.enemyHp{position:absolute;left:2px;right:2px;bottom:2px;height:4px;background:#000a;border-radius:9px;overflow:hidden}.enemyHp i{display:block;height:100%;background:#ff7b73}.battleTray{display:flex;gap:7px;margin-top:9px}.troopBtn{flex:1}.stars{font-size:31px;letter-spacing:3px;text-align:center}.toast{position:fixed;z-index:80;top:86px;left:50%;transform:translateX(-50%) translateY(-20px);background:#08121eef;border:1px solid #ffffff20;border-radius:13px;padding:10px 14px;opacity:0;pointer-events:none;transition:.22s;box-shadow:0 8px 30px #0008;max-width:90vw;text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
@@ -1492,7 +1492,7 @@ body.ef-town-screen #gemShopBtn{
 }
 
 
-/* ===== V37.30 — correções Centro da Vila / HUD / Laboratório ===== */
+/* ===== V37.31 — correções Centro da Vila / HUD / Laboratório ===== */
 
 /* Vila principal: desce um pouco indicadores + Shop */
 #resourceShopStack{
@@ -1569,7 +1569,7 @@ body.ef-lab-inner-open #buildingPopup{
 }
 
 
-/* ===== V37.30 ajuste final HUD ===== */
+/* ===== V37.31 ajuste final HUD ===== */
 
 /* Desce só um pouco a LOJA SHOP */
 #gemShopBtn{
@@ -1598,7 +1598,7 @@ body.ef-lab-inner-open #buildingPopup{
 }
 
 
-/* ===== V37.30 — recuperação do layout estável ===== */
+/* ===== V37.31 — recuperação do layout estável ===== */
 
 /* HUD lateral permanece no lado DIREITO */
 #resourceShopStack{
@@ -1648,7 +1648,7 @@ body.ef-lab-inner-open #gemShopBtn{
 }
 
 
-/* ===== V37.30 — mover por pressão + arrastar ===== */
+/* ===== V37.31 — mover por pressão + arrastar ===== */
 body.ef-drag-building{
   overscroll-behavior:none !important;
 }
@@ -1727,7 +1727,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 .oppCancelled{align-items:center;justify-content:center;flex-direction:column;text-align:center}.oppCancelledIcon{font-size:64px}
 
 
-/* ===== V37.30 — busca real + batalha por soltura de tropas ===== */
+/* ===== V37.31 — busca real + batalha por soltura de tropas ===== */
 #resolveBattle{display:none !important}
 
 #battleModal .battleTroopTray,
@@ -1807,7 +1807,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 #realOppNext{background:#345b7c}#realOppAttack{background:#bc3737}
 
 
-/* ===== V37.30 — patch mínimo sobre V37.4 ===== */
+/* ===== V37.31 — patch mínimo sobre V37.4 ===== */
 
 /* Perfil da conta */
 .efProfileTrigger{cursor:pointer}
@@ -1917,7 +1917,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — refinamento da tela de ataque ===== */
+/* ===== V37.31 — refinamento da tela de ataque ===== */
 
 /* Remove texto/instrução acima das tropas */
 #battleInfo,
@@ -2089,7 +2089,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — batalha limpa: só mapa + tropas + tempo + render-se ===== */
+/* ===== V37.31 — batalha limpa: só mapa + tropas + tempo + render-se ===== */
 
 /* Tudo do topo que não deve aparecer durante a batalha */
 #battleModal .battleLoot,
@@ -2301,7 +2301,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — configurações dentro do perfil ===== */
+/* ===== V37.31 — configurações dentro do perfil ===== */
 .efProfileSettings{
   grid-column:1/-1;
   padding:12px;
@@ -2338,7 +2338,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* V37.30 */
+/* V37.31 */
 .topbar .resources .res.gold,
 .topbar .resources .res.elixir{display:none!important}
 
@@ -2358,7 +2358,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 #efLogoutBtn{display:block!important;width:100%!important;min-height:50px!important;margin-top:10px!important}
 
 
-/* ===== V37.30 — perfil independente do JavaScript principal ===== */
+/* ===== V37.31 — perfil independente do JavaScript principal ===== */
 #efProfileTrigger,#level,#playerName{
   pointer-events:auto !important;
   cursor:pointer !important;
@@ -2503,7 +2503,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 .efResetVillageCard .danger{background:#b53232}
 
 
-/* ===== V37.30 — somente matchmaking real ===== */
+/* ===== V37.31 — somente matchmaking real ===== */
 #opponentSearchScreen{
   display:none !important;
   pointer-events:none !important;
@@ -2525,7 +2525,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — botão Busca Real independente ===== */
+/* ===== V37.31 — botão Busca Real independente ===== */
 #realOpponentSearch.open{
   display:grid !important;
   grid-template-columns:230px 1fr !important;
@@ -2541,7 +2541,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — diagnóstico e autosave online ===== */
+/* ===== V37.31 — diagnóstico e autosave online ===== */
 .efP23CheckOnline{
   grid-column:1/-1;
   width:100%;
@@ -2558,7 +2558,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 #efP23OnlineState.error{color:#ff8b8b}
 
 
-/* ===== V37.30 — busca de oponente compacta ===== */
+/* ===== V37.31 — busca de oponente compacta ===== */
 
 #realOpponentSearch{
   position:fixed !important;
@@ -2794,7 +2794,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — oponente full + tropas embaixo ===== */
+/* ===== V37.31 — oponente full + tropas embaixo ===== */
 #realOpponentSearch{
   position:fixed!important;
   inset:0!important;
@@ -3087,7 +3087,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — corrige mapa central + tropas no rodapé ===== */
+/* ===== V37.31 — corrige mapa central + tropas no rodapé ===== */
 
 /* Força a tela inteira em 3 áreas:
    topo / mapa / tropas */
@@ -3212,7 +3212,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — opponent screen rebuilt, isolated from legacy CSS ===== */
+/* ===== V37.31 — opponent screen rebuilt, isolated from legacy CSS ===== */
 #realOpponentSearch{
   position:fixed!important; inset:0!important; z-index:2147483000!important;
   display:none!important; width:100vw!important; height:100dvh!important;
@@ -3329,7 +3329,7 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 
 
-/* ===== V37.30 — personagens reais em HTML/CSS: MAGO + GIGANTE ===== */
+/* ===== V37.31 — personagens reais em HTML/CSS: MAGO + GIGANTE ===== */
 .efDoll{
   position:relative;display:inline-block;width:46px;height:54px;vertical-align:middle;
   filter:drop-shadow(0 4px 3px rgba(0,0,0,.55));transform-origin:center bottom;
@@ -3464,12 +3464,20 @@ body.ef-drag-building .efHoldHint{opacity:1}
 }
 @keyframes efSmash{from{scale:.18;opacity:1}to{scale:1.55;opacity:0}}
 
+
+/* V37.31 — feedback de soltura no mapa do oponente */
+#realOppVillage{cursor:crosshair!important;touch-action:none!important}
+#realOppTroopTray .opp27Troop.selected{
+  outline:4px solid #72ff9b!important;
+  box-shadow:0 0 14px #63ef8aaa!important;
+}
+
 </style>
 <script src="config.js"></script>
 </head>
 <body class="ef-auth-locked">
 <div class="fullscreenGate" id="fullscreenGate"><div class="fullscreenGateCard"><div class="fullscreenGateLogo">🏰</div><h2>Empire Forge</h2><p>Toque abaixo para abrir o jogo ocupando toda a tela do celular em modo deitado.</p><button class="fullscreenEnter" id="fullscreenEnter">⛶ JOGAR EM TELA CHEIA</button><small class="fullscreenHint">Se o Spck bloquear o fullscreen, abra a prévia no navegador ou instale o PWA.</small></div></div>
-<div id="appVersionBadge" style="position:fixed;right:8px;bottom:8px;z-index:99999;background:#111c;color:#fff;padding:5px 8px;border-radius:9px;font:700 11px system-ui;border:1px solid #ffffff33;pointer-events:none">V37.30</div>
+<div id="appVersionBadge" style="position:fixed;right:8px;bottom:8px;z-index:99999;background:#111c;color:#fff;padding:5px 8px;border-radius:9px;font:700 11px system-ui;border:1px solid #ffffff33;pointer-events:none">V37.31</div>
 <header class="topbar"><div class="toprow"><div class="profile efProfileTrigger" id="efProfileTrigger" onclick="document.getElementById('efProfilePanelV3719').classList.add('open');document.getElementById('efProfilePanelV3719').setAttribute('aria-hidden','false');if(window.efFillProfileV3719)window.efFillProfileV3719();return false;" role="button" tabindex="0"><div class="level" id="level" onclick="document.getElementById('efProfilePanelV3719').classList.add('open');document.getElementById('efProfilePanelV3719').setAttribute('aria-hidden','false');if(window.efFillProfileV3719)window.efFillProfileV3719();return false;">1</div><div class="ptext"><b id="playerName" onclick="document.getElementById('efProfilePanelV3719').classList.add('open');document.getElementById('efProfilePanelV3719').setAttribute('aria-hidden','false');if(window.efFillProfileV3719)window.efFillProfileV3719();return false;">Jogador</b><div class="xp"><i id="xpBar"></i></div></div></div><div class="subtop kingdomTopStatus"><span class="pill" title="Troféus">🏆 <b id="trophies">0</b></span><span class="pill" title="Gemas">💎 <b id="gems">0</b></span><span class="pill" title="Exército">👥 <b id="armyCap">0/0</b></span><span class="pill" title="Centro da Vila">🏰 <b id="thLevel">1</b></span><span class="pill" title="Construtores">🔨 <b id="builders">2/2</b></span><span class="pill" title="Escudo">🛡️ <b id="shield">0m</b></span></div><div class="resources"><div class="res gold">🪙 <span id="gold">0</span></div><div class="res elixir">💧 <span id="elixir">0</span></div><button class="topCollect" id="topCollect" title="Recolher recursos">💰</button><button class="settingsBtn" id="settingsBtn" title="Configurações">⚙️</button></div></div></header>
 <main class="page"><div class="villageShell"><div class="mapToolbar"><button class="mapBtn" id="zoomOut">−</button><span id="zoomLabel">100%</span><button class="mapBtn" id="zoomIn">＋</button><button class="mapBtn" id="centerMap">◎ Centro</button></div><div id="villageViewport" class="villageViewport"><div id="grid" class="grid"></div></div><div class="mapHint">Arraste a vila • use dois dedos para ampliar • Centro da Vila permanece no coração do mapa</div></div></main>
 <div class="leftActionStack" id="leftActionStack"><button class="chatDock" id="chatDock" title="Abrir chat"><span>💬</span><span id="chatPreview">Chat público</span></button><button class="clanWarBtn" id="clanWarOpen">🛡️ CLÃ / GUERRA</button><button class="villageAttackBtn" id="attack" aria-label="Buscar oponente" title="Buscar oponente" onclick="return window.efRealSearchDirectV3722 ? window.efRealSearchDirectV3722(event) : false;"><span class="villageAttackIcon">⚔️</span><span class="villageAttackText">BUSCAR OPONENTE</span></button></div>
@@ -3478,8 +3486,8 @@ body.ef-drag-building .efHoldHint{opacity:1}
 <div class="fullFeature" id="clanWarScreen" aria-hidden="true"><div class="featureHead"><span>🛡️</span><h2>Clã e Guerra</h2><button class="featureClose" data-close-feature="clanWarScreen">✕</button></div><div class="featureBody"><div class="warHero"><div class="warBadge">⚔️</div><div><strong>Central de Guerra</strong><div class="muted">Prepare o exército, participe de guerras e acompanhe o histórico.</div></div></div><div class="warGrid"><div class="warCard"><h3>🛡️ Guerra de Clãs</h3><p>Prepare seus ataques e participe de confrontos do clã.</p><button class="btn red" id="warStartSafe">Entrar na guerra</button></div><div class="warCard"><h3>🏆 Liga de Clãs</h3><p>Área preparada para temporadas, classificação e recompensas da liga.</p><button class="btn" id="leagueInfoSafe">Ver liga</button></div><div class="warCard"><h3>📜 Histórico</h3><p>Vitórias registradas: <b id="warWinsSafe">0</b>. Aqui ficará o histórico das guerras.</p><button class="btn" id="warHistorySafe">Abrir histórico</button></div><div class="warCard"><h3>👥 Exército</h3><p id="warArmySafe">Confira suas tropas prontas antes de entrar em combate.</p><button class="btn green" id="warArmyBtnSafe">Ver exército</button></div><div class="warCard"><h3>🔎 Buscar adversário</h3><p>Próxima etapa: matchmaking por força e troféus, mostrando a vila inimiga antes do ataque.</p><button class="btn orange" id="warSearchSafe">Preparar busca</button></div><div class="warCard"><h3>🎁 Recompensas</h3><p>Espaço para bônus de guerra, estrelas e recompensas de temporada.</p><button class="btn" id="warRewardsSafe">Ver recompensas</button></div></div></div></div>
 
 <div class="settingsSheet" id="settingsSheet" aria-hidden="true"><div class="settingsPanel"><div class="settingsHead"><h2>⚙️ Configuração</h2><button class="settingsClose" id="settingsClose">✕</button></div><div class="settingsGroup profileSettings"><h3>👤 Perfil do jogador</h3><div class="profileEditRow"><input id="playerNameInput" maxlength="20" placeholder="Digite seu nome"><button class="btn green" id="savePlayerName">Salvar nome</button></div><small class="muted">Este nome fica salvo no aparelho e aparece no perfil no topo. Quando adicionarmos o cadastro/login, o nome cadastrado será usado aqui automaticamente.</small></div><div class="settingsGroup"><h3>Status do Reino</h3><div class="settingsStatus"><div>🏆 Troféus<b id="settingsTrophies">0</b></div><div>💎 Gemas<b id="settingsGems">0</b></div><div>👥 Exército<b id="settingsArmy">0/0</b></div><div>🏰 Centro<b id="settingsCV">1</b></div><div>🔨 Construtores<b id="settingsBuilders">0/0</b></div><div>🛡️ Escudo<b id="settingsShield">0m</b></div></div></div><div class="settingsGroup"><h3>Ações rápidas</h3><div class="settingsGrid"><button class="btn green" id="settingsCollect">💰 Recolher recursos</button><button class="btn" id="settingsFullscreen">⛶ Tela cheia</button><button class="btn" id="settingsCenter">◎ Centralizar vila</button></div><div class="balanceNote">Laboratório abre somente tocando no prédio Laboratório. Treinamento abre somente tocando no Quartel. Tropas prontas ficam no Acampamento.</div></div><div class="settingsMoved"><div class="controls"><button class="btn green" id="collect">💰 Coletar</button><button class="btn" id="upgrade">⬆️ Melhorar</button><button class="btn" id="edit">✋ Mover</button></div>
-<div class="layout"><section class="panel"><h2>Loja de Construções</h2><div class="tabs" id="tabs"></div><div class="shop" id="shop"></div></section><section class="panel compactEvents"><h2>📜 Eventos da Vila</h2><div class="log" id="log">Bem-vindo ao Empire Forge V37.30.</div><div class="muted" style="font-size:12px;margin-top:8px">Treinamento e fila agora ficam somente dentro do prédio Quartel. Toque no Quartel da vila para entrar.</div></section></div><section class="panel missionsPanel" id="missionsPanel" style="margin-top:10px"><div class="missionHead"><div><h2>🎯 Missões do Reino</h2><p class="muted" style="margin:0">Complete objetivos para ganhar gemas e XP.</p></div><button class="btn" id="dailyChest">🎁 Baú diário</button></div><div id="missions" class="missions"></div></section><section class="panel" id="kingdomPanel" style="margin-top:10px"><h2>🌍 Reino V26</h2><div class="v5grid"><div class="v5card"><b>🔬 Laboratório de Tropas</b><div id="labList"></div></div><div class="v5card"><b>👑 Herói do Reino</b><div class="heroBox"><div class="heroAvatar">🦁</div><div><strong id="heroLevel">Nv 1</strong><div class="muted">Comandante das tropas</div><button class="btn orange" id="heroUpgrade" style="margin-top:6px">Melhorar herói</button></div></div></div><div class="v5card"><b>🤝 Clã</b><div id="clanInfo" class="muted"></div><button class="btn" id="createClan" style="margin-top:7px;width:100%">Criar / renomear clã</button></div><div class="v5card"><b>🏆 Ranking local</b><div id="ranking"></div></div></div><h2 style="margin-top:14px">🗺️ Campanha</h2><div id="campaign" class="campaign"></div></section><section class="panel" id="v10Panel" style="margin-top:10px"><h2>🚀 Sistemas V6 → V11</h2><div class="v10bar"><div class="v10chip"><b id="league">Bronze</b>Liga</div><div class="v10chip"><b id="seasonLevel">1</b>Temporada</div><div class="v10chip"><b id="achCount">0/5</b>Conquistas</div><div class="v10chip"><b id="warWins">0</b>Guerras</div><div class="v10chip"><b id="dailyStreak">1</b>Sequência</div></div><div class="v10grid"><div class="v10card"><h3>🛡️ Liga e temporada</h3><div id="seasonText" class="muted"></div><div class="seasonbar"><i id="seasonBar"></i></div><button class="btn orange" id="seasonClaim" style="width:100%">Resgatar prêmio</button></div><div class="v10card"><h3>🏅 Conquistas</h3><div id="achievements"></div></div><div class="v10card"><h3>⚔️ Guerra de Clãs</h3><div id="warInfo" class="muted"></div><button class="btn red" id="clanWar" style="width:100%;margin-top:7px">Entrar na guerra</button></div><div class="v10card"><h3>🐉 Chefe da campanha</h3><div class="muted">A cada 3 fases surge uma fortaleza chefe com recompensa maior.</div><button class="btn green" id="bossRaid" style="width:100%;margin-top:7px">Atacar chefe</button></div></div></section></div></div></div>
-<div class="rotateGate" id="rotateGate"><div class="rotateCard"><span class="rotatePhone">📱</span><h2>Jogue com o celular deitado</h2><p>O Empire Forge V37.30 foi preparado para modo paisagem. Gire o celular para continuar.</p></div></div>
+<div class="layout"><section class="panel"><h2>Loja de Construções</h2><div class="tabs" id="tabs"></div><div class="shop" id="shop"></div></section><section class="panel compactEvents"><h2>📜 Eventos da Vila</h2><div class="log" id="log">Bem-vindo ao Empire Forge V37.31.</div><div class="muted" style="font-size:12px;margin-top:8px">Treinamento e fila agora ficam somente dentro do prédio Quartel. Toque no Quartel da vila para entrar.</div></section></div><section class="panel missionsPanel" id="missionsPanel" style="margin-top:10px"><div class="missionHead"><div><h2>🎯 Missões do Reino</h2><p class="muted" style="margin:0">Complete objetivos para ganhar gemas e XP.</p></div><button class="btn" id="dailyChest">🎁 Baú diário</button></div><div id="missions" class="missions"></div></section><section class="panel" id="kingdomPanel" style="margin-top:10px"><h2>🌍 Reino V26</h2><div class="v5grid"><div class="v5card"><b>🔬 Laboratório de Tropas</b><div id="labList"></div></div><div class="v5card"><b>👑 Herói do Reino</b><div class="heroBox"><div class="heroAvatar">🦁</div><div><strong id="heroLevel">Nv 1</strong><div class="muted">Comandante das tropas</div><button class="btn orange" id="heroUpgrade" style="margin-top:6px">Melhorar herói</button></div></div></div><div class="v5card"><b>🤝 Clã</b><div id="clanInfo" class="muted"></div><button class="btn" id="createClan" style="margin-top:7px;width:100%">Criar / renomear clã</button></div><div class="v5card"><b>🏆 Ranking local</b><div id="ranking"></div></div></div><h2 style="margin-top:14px">🗺️ Campanha</h2><div id="campaign" class="campaign"></div></section><section class="panel" id="v10Panel" style="margin-top:10px"><h2>🚀 Sistemas V6 → V11</h2><div class="v10bar"><div class="v10chip"><b id="league">Bronze</b>Liga</div><div class="v10chip"><b id="seasonLevel">1</b>Temporada</div><div class="v10chip"><b id="achCount">0/5</b>Conquistas</div><div class="v10chip"><b id="warWins">0</b>Guerras</div><div class="v10chip"><b id="dailyStreak">1</b>Sequência</div></div><div class="v10grid"><div class="v10card"><h3>🛡️ Liga e temporada</h3><div id="seasonText" class="muted"></div><div class="seasonbar"><i id="seasonBar"></i></div><button class="btn orange" id="seasonClaim" style="width:100%">Resgatar prêmio</button></div><div class="v10card"><h3>🏅 Conquistas</h3><div id="achievements"></div></div><div class="v10card"><h3>⚔️ Guerra de Clãs</h3><div id="warInfo" class="muted"></div><button class="btn red" id="clanWar" style="width:100%;margin-top:7px">Entrar na guerra</button></div><div class="v10card"><h3>🐉 Chefe da campanha</h3><div class="muted">A cada 3 fases surge uma fortaleza chefe com recompensa maior.</div><button class="btn green" id="bossRaid" style="width:100%;margin-top:7px">Atacar chefe</button></div></div></section></div></div></div>
+<div class="rotateGate" id="rotateGate"><div class="rotateCard"><span class="rotatePhone">📱</span><h2>Jogue com o celular deitado</h2><p>O Empire Forge V37.31 foi preparado para modo paisagem. Gire o celular para continuar.</p></div></div>
 <div class="toast" id="toast"></div>
 <section id="townScreen" class="townScreen" aria-hidden="true">
   <div class="townScreenInner">
@@ -5618,7 +5626,7 @@ document.addEventListener("visibilitychange",()=>{
 })();
 
 
-// ===== V37.30 — esconder HUD no Centro + entrar no Lab fechando painel anterior =====
+// ===== V37.31 — esconder HUD no Centro + entrar no Lab fechando painel anterior =====
 (function(){
 
   function isVisible(el){
@@ -5715,7 +5723,7 @@ document.addEventListener("visibilitychange",()=>{
 })();
 
 
-// ===== V37.30 — pressione, arraste e solte qualquer construção =====
+// ===== V37.31 — pressione, arraste e solte qualquer construção =====
 (function(){
   const HOLD_MS=260;
   const D={
@@ -5983,10 +5991,10 @@ document.addEventListener("visibilitychange",()=>{
 
 
 
-// ===== V37.30 — busca simulada antiga DESATIVADA =====
+// ===== V37.31 — busca simulada antiga DESATIVADA =====
 
 
-// ===== V37.30 — vila real no PostgreSQL + matchmaking real =====
+// ===== V37.31 — vila real no PostgreSQL + matchmaking real =====
 (function(){
   let syncTimer=null;
   let chosenOpponent=null;
@@ -6161,10 +6169,16 @@ document.addEventListener("visibilitychange",()=>{
     renderBattle();
   }
 
-  document.getElementById("realOppSearchBtn").onclick=search;
+  // Disponibiliza a abertura da batalha mesmo sem existir botão "Atacar".
+  window.openRealOpponentSearch=open;
+  window.searchRealOpponent=search;
+  window.efOpenChosenBattleV3728=openChosenBattle;
+  window.efGetChosenOpponentV3728=function(){return chosenOpponent};
+
+  document.getElementById("realOppSearchBtn")?.addEventListener("click",search);
   document.getElementById("realOppNext").onclick=search;
   document.getElementById("realOppCloseBtn").onclick=close;
-  document.getElementById("realOppAttack").onclick=openChosenBattle;
+  document.getElementById("realOppAttack")?.addEventListener("click",openChosenBattle);
 
   // ÚNICO ponto de entrada da busca: botão #attack da vila principal.
   const mainAttack=document.getElementById("attack");
@@ -6177,14 +6191,10 @@ document.addEventListener("visibilitychange",()=>{
     };
   }
 
-  window.openRealOpponentSearch=open;
-  window.searchRealOpponent=search;
-  window.efOpenChosenBattleV3728=openChosenBattle;
-  window.efGetChosenOpponentV3728=function(){return chosenOpponent};
 })();
 
 
-// ===== V37.30 — funções extras sem reescrever a V37.4 =====
+// ===== V37.31 — funções extras sem reescrever a V37.4 =====
 (function(){
   function userSafe(){
     try{
@@ -6285,7 +6295,7 @@ document.addEventListener("visibilitychange",()=>{
 })();
 
 
-// ===== V37.30 — perfil do adversário sincronizado =====
+// ===== V37.31 — perfil do adversário sincronizado =====
 (function(){
   const enemyName=document.getElementById("enemyName");
   const profile=document.getElementById("efEnemyProfile");
@@ -6343,7 +6353,7 @@ document.addEventListener("visibilitychange",()=>{
 })();
 
 
-// ===== V37.30 — barra de tropas confiável + perfil inimigo =====
+// ===== V37.31 — barra de tropas confiável + perfil inimigo =====
 (function(){
   function troopInfo(type){
     try{
@@ -6461,7 +6471,7 @@ document.addEventListener("visibilitychange",()=>{
 })();
 
 
-// ===== V37.30 — status simples do perfil =====
+// ===== V37.31 — status simples do perfil =====
 (function(){
   function refreshProfileConnectionStatus(){
     try{
@@ -7514,42 +7524,86 @@ document.addEventListener("visibilitychange",()=>{
     update();renderTray();
   }
   function deploy(ev){
-    if(!selected||qty(selected)<=0)return;
-    var map=document.getElementById("realOppVillage"),r=map.getBoundingClientRect();
-    if(!r.width||!r.height)return;
+    if(!selected || qty(selected)<=0)return;
 
-    var pctX=Math.max(0,Math.min(100,(ev.clientX-r.left)*100/r.width));
-    var pctY=Math.max(0,Math.min(100,(ev.clientY-r.top)*100/r.height));
+    var map=document.getElementById("realOppVillage");
+    if(!map)return;
+
+    var r=map.getBoundingClientRect();
+    if(!r.width || !r.height)return;
+
+    var clientX=ev.clientX;
+    var clientY=ev.clientY;
+    if((clientX==null || clientY==null) && ev.changedTouches && ev.changedTouches[0]){
+      clientX=ev.changedTouches[0].clientX;
+      clientY=ev.changedTouches[0].clientY;
+    }
+    if(clientX==null || clientY==null)return;
+
+    var pctX=Math.max(0,Math.min(100,(clientX-r.left)*100/r.width));
+    var pctY=Math.max(0,Math.min(100,(clientY-r.top)*100/r.height));
     var troopToDrop=selected;
 
-    // A primeira tropa já inicia a batalha real. Não existe botão "Atacar".
-    if(typeof window.efOpenChosenBattleV3728==="function"){
-      window.efOpenChosenBattleV3728();
-
-      // O motor de batalha usa coordenadas 0..6 e exige posicionamento na borda.
-      setTimeout(function(){
-        try{
-          if(typeof battle==="undefined" || !battle)return;
-          selectedTroop=troopToDrop;
-
-          var x=(pctX/100)*6, y=(pctY/100)*6;
-          // Leva o toque para a borda mais próxima, preservando o ponto escolhido.
-          var distances=[x,6-x,y,6-y];
-          var min=Math.min.apply(null,distances);
-          if(min===x)x=.25;
-          else if(min===6-x)x=5.75;
-          else if(min===y)y=.25;
-          else y=5.75;
-
-          deployXY(x,y); // deployXY já liga battle.running e battleLoop automaticamente.
-        }catch(e){}
-      },80);
-      return;
+    // Abre a batalha da vila REAL selecionada.
+    var opener=window.efOpenChosenBattleV3728;
+    if(typeof opener!=="function"){
+      // fallback: usa o oponente guardado pelo buscador direto.
+      var opp=window.efChosenOpponentV3728 || window.efDirectChosenOpponentV3722 || window.efDirectChosenOpponentV3727;
+      if(!opp){
+        if(typeof toast==="function")toast("Oponente ainda não carregado.");
+        return;
+      }
+      if(typeof window.efStartOpponentBattleV3731==="function"){
+        window.efStartOpponentBattleV3731(opp);
+      }else{
+        if(typeof toast==="function")toast("Não foi possível iniciar a batalha.");
+        return;
+      }
+    }else{
+      opener();
     }
+
+    // Após o modal da batalha existir, coloca a tropa no ponto escolhido
+    // (convertido para a borda válida mais próxima do campo).
+    setTimeout(function(){
+      try{
+        if(typeof battle==="undefined" || !battle)return;
+
+        selectedTroop=troopToDrop;
+
+        var x=(pctX/100)*6;
+        var y=(pctY/100)*6;
+
+        var distances=[x,6-x,y,6-y];
+        var min=Math.min.apply(null,distances);
+
+        if(min===x)x=.22;
+        else if(min===6-x)x=5.78;
+        else if(min===y)y=.22;
+        else y=5.78;
+
+        deployXY(x,y);
+      }catch(err){
+        console.error("deploy opponent troop",err);
+      }
+    },120);
   }
 
   var map=document.getElementById("realOppVillage");
-  if(map)map.addEventListener("click",deploy);
+  if(map){
+    var lastPointerDeploy=0;
+    map.addEventListener("pointerup",function(ev){
+      if(ev.pointerType==="touch" || ev.pointerType==="pen"){
+        lastPointerDeploy=Date.now();
+        ev.preventDefault();
+        deploy(ev);
+      }
+    },{passive:false});
+    map.addEventListener("click",function(ev){
+      if(Date.now()-lastPointerDeploy<500)return;
+      deploy(ev);
+    });
+  }
 
   document.getElementById("realOppNext")?.addEventListener("click",function(e){
     e.preventDefault();clear();
@@ -7649,6 +7703,69 @@ document.addEventListener("visibilitychange",()=>{
   // API manual para o restante do jogo restaurar/salvar sem duplicar lógica.
   window.efSaveVillageViewV3728=saveCamera;
   window.efRestoreVillageViewV3728=restoreCamera;
+})();
+</script>
+
+
+<script id="efOpponentBattleFallbackV3731">
+(function(){
+  window.efStartOpponentBattleV3731=function(o){
+    try{
+      if(!o)return false;
+      if(!Array.isArray(state?.army) || !state.army.length){
+        if(typeof say==="function")say("Treine tropas antes de atacar.");
+        return false;
+      }
+
+      if(typeof closeBuildingPopup==="function")closeBuildingPopup();
+      try{clearInterval(battleLoop)}catch(_){}
+
+      var enemyBuildings=(typeof opponentEnemySet==="function")
+        ? opponentEnemySet(o)
+        : (typeof enemySet==="function" ? enemySet() : []);
+
+      var cv=Math.max(1,Number(o.gameState?.buildings?.find(function(b){return b.type==="town"})?.level||1));
+
+      battle={
+        enemy:enemyBuildings,
+        units:[],
+        deployed:[],
+        effects:[],
+        speed:1,
+        heroUsed:false,
+        healUsed:false,
+        gold:Math.max(0,Number(o.gold||1000)),
+        elixir:Math.max(0,Number(o.elixir||1000)),
+        trophy:Math.max(5,Math.round(Number(o.trophies||100)*.08)),
+        running:false,
+        ended:false,
+        time:120,
+        last:performance.now(),
+        enemyLv:cv,
+        name:o.name||"Oponente",
+        opponentUserId:o.userId||null,
+        opponentSource:o.source||"fallback"
+      };
+
+      var search=document.getElementById("realOpponentSearch");
+      if(search){
+        search.classList.remove("open");
+        search.setAttribute("aria-hidden","true");
+      }
+
+      document.body.classList.add("battleOpen");
+      document.getElementById("battleModal")?.classList.add("show");
+
+      if(typeof selectedTroop!=="undefined"){
+        selectedTroop=[...new Set(state.army)][0]||selectedTroop;
+      }
+      if(typeof renderBattle==="function")renderBattle();
+      return true;
+    }catch(e){
+      console.error("fallback battle start",e);
+      return false;
+    }
+  };
 })();
 </script>
 
